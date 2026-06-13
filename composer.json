@@ -1,0 +1,37 @@
+{
+    "name": "lukman-ss/database",
+    "description": "A lightweight PHP database library wrapper around PDO",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "database",
+        "pdo",
+        "query-builder",
+        "sqlite"
+    ],
+    "authors": [
+        {
+            "name": "Lukman"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukman\\Database\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lukman\\Database\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
