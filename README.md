@@ -1,5 +1,7 @@
 # Lukman Database
 
+![Hero Image](docs/hero.png)
+
 Lightweight PHP database package built on PDO.
 
 ## Requirements
